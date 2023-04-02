@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 256 256">
+                <path fill="currentColor"
+                    d="M236.37 139.4a12 12 0 0 0-12-3A84.07 84.07 0 0 1 119.6 31.59a12 12 0 0 0-15-15a108.86 108.86 0 0 0-54.91 38.48A108 108 0 0 0 136 228a107.09 107.09 0 0 0 64.93-21.69a108.86 108.86 0 0 0 38.44-54.94a12 12 0 0 0-3-11.97Zm-49.88 47.74A84 84 0 0 1 68.86 69.51a84.93 84.93 0 0 1 23.41-21.22Q92 52.13 92 56a108.12 108.12 0 0 0 108 108q3.87 0 7.71-.27a84.79 84.79 0 0 1-21.22 23.41Z" />
+            </svg></button>
+
+        <div class="calculator">
+            <div class="display">
+                <div class="input"><span></span></div>
+                <div class="output"><span></span></div>
+            </div>
+
+            <div class="keys">
+
+                <button data-key="clear" class="key operador">AC</button>
+                <button data-key="backS" class="key "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 15 15">
+                        <path fill="#f39237"
+                            d="m4.5 12.5l-.39.312A.5.5 0 0 0 4.5 13v-.5Zm-4-5l-.39-.312a.5.5 0 0 0 0 .624L.5 7.5Zm4-5V2a.5.5 0 0 0-.39.188l.39.312Zm9.5 1v8h1v-8h-1Zm-.5 8.5h-9v1h9v-1Zm-8.61.188l-4-5l-.78.624l4 5l.78-.624Zm-4-4.376l4-5l-.78-.624l-4 5l.78.624ZM4.5 3h9V2h-9v1Zm9.5 8.5a.5.5 0 0 1-.5.5v1a1.5 1.5 0 0 0 1.5-1.5h-1Zm1-8A1.5 1.5 0 0 0 13.5 2v1a.5.5 0 0 1 .5.5h1ZM6.146 5.854l4 4l.708-.708l-4-4l-.708.708Zm4-.708l-4 4l.708.708l4-4l-.708-.708Z" />
+                    </svg></button>
+                <button data-key="%" class="key operador">%</button>
+                <button data-key="/" class="key operador">/</button>
+                <button data-key="9" class="key">9</button>
+                <button data-key="8" class="key">8</button>
+                <button data-key="7" class="key">7</button>
+                <button data-key="*" class="key operador">*</button>
+                <button data-key="6" class="key">6</button>
+                <button data-key="5" class="key">5</button>
+                <button data-key="4" class="key">4</button>
+                <button data-key="-" class="key operador">-</button>
+                <button data-key="3" class="key ">3</button>
+                <button data-key="2" class="key ">2</button>
+                <button data-key="1" class="key ">1</button>
+                <button data-key="+" class="key operador">+</button>
+                <button data-key="0" class="key ">0</button>
+                <button data-key="." class="key operador">.</button>
+                <button data-key="=" class="key operador equal">=</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="/app.js"></script>
+
+</html>
